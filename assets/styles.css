@@ -12,11 +12,28 @@
     height: 100px;
     width: 100%;
 }
+span{
+
+}
+span:after{
+    display: block;
+    background-color: tomato;
+    color: black;
+    width: 100px;
+    
+}
+li{
+}
+
+li:hover span{
+    
+}
 
 .headtext h2{
     font-size: 14;
     text-align: right;
 }
+
 
 .bodtext{
     display: block;
