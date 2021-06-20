@@ -6,32 +6,45 @@
 /*skeleton*/
 html {
     background-color: #fa923f;
-    padding: 10px;
+    padding: 0px;
+    scroll-behavior: smooth;
 }
 .name{
     display: flex;
     font-size: 25px;
     text-decoration: none;
     justify-self: flex-start;
+    align-items: center;
+    color: white;
+    font-family: fantasy;
+    margin-left: 10px;
+
 }
 body {
-    background-color: yellow;
-    padding: 10px;
+    background-color: #86acc8 ;
+    padding: 0px;
     margin: 0;
 }
 
 ul a{
     display: flex;
     font-family: fantasy;
-    color: brown;
-    padding: 0 20px 0 20px;
+    color: black;
+    background-color: #29465b ;
+    padding: 5px 20px 5px 20px;
     width: fit-content;
     text-decoration: none;
     justify-self: flex-end;
     align-self: center;
+    border-radius: 10px;
+    border: black solid 2px;
+    border-color: black;
+    margin: 10px;
+    
 
 }
 nav {
+    background-color: #162632;
     display: flex;
     align-items: center;
 }
@@ -43,11 +56,16 @@ nav ul{
     
     
 }
+header{
+    background-color: #162632;
+    width: 100%;
+}
 
 /*flexbox*/
 .parent0{
-    background-color: tan;
-    margin: 0px;
+    background-color: #162632;
+    width: 100%;
+    margin:0px;
     padding: 0px;
     height: auto;
     display: flex;
@@ -56,8 +74,8 @@ nav ul{
 
 }
 .parent {
-    background-color: green;
-    margin: 10px;
+    background-color:#162632;
+  
     padding: 30px;
     height: auto;
     display: flex;
