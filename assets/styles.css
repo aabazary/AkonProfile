@@ -9,6 +9,8 @@ html {
     background-color: #fa923f;
     padding: 0px;
     scroll-behavior: smooth;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
 }
 
 .banner {
@@ -139,8 +141,44 @@ header {
     margin: 10px;
     padding: 10px;
     position: absolute;
-    left: 29.7%;
+    left: 30%;
     top:90%;
+}
+.overbox1 {
+    background-color: black;
+    color:#969999;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 30%;
+    top:155%;
+}
+.overbox2 {
+    background-color: black;
+    color:#969999;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 6%;
+    top:155%;
+}
+.overbox3 {
+    background-color: black;
+    color:#969999;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 30%;
+    top:187%;
+}
+.overbox4 {
+    background-color: black;
+    color:#969999;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 6%;
+    top:187%;
 }
 
 .div1 {
@@ -198,8 +236,8 @@ header {
 }
 
 .smallpic {
-
-
+    position: relative;
+    border: black solid 5px;
     width: 45%;
     height: 200px;
     opacity: .5;
