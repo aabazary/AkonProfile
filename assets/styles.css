@@ -1,19 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
+
 /*skeleton*/
 html {
     background-color: #fa923f;
     padding: 0px;
     scroll-behavior: smooth;
 }
-.banner{
+
+.banner {
     height: 150px;
     width: 100%;
 }
-.name{
+
+.name {
     display: flex;
     font-size: 25px;
     text-decoration: none;
@@ -24,17 +27,18 @@ html {
     margin-left: 10px;
 
 }
+
 body {
-    background-color: #225b69 ;
+    background-color: #225b69;
     padding: 0px;
     margin: 0px;
 }
 
-li a{
+li a {
     display: flex;
     font-family: fantasy;
     color: black;
-    background-color: #29465b ;
+    background-color: #29465b;
     padding: 5px 20px 5px 20px;
     width: fit-content;
     text-decoration: none;
@@ -45,11 +49,12 @@ li a{
     border-color: black;
     margin: 10px;
 }
-li a:hover{
+
+li a:hover {
     display: flex;
     font-family: fantasy;
     color: #4c89b4;
-    background-color: #0a2030 ;
+    background-color: #0a2030;
     padding: 5px 20px 5px 20px;
     width: fit-content;
     text-decoration: none;
@@ -67,61 +72,77 @@ nav {
     display: flex;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style-type: none;
     align-self: center;
-   
+
 }
-header{
+
+header {
     background-color: #162632;
     width: 100%;
 }
 
 /*flexbox*/
-.parent0{
+.parent0 {
     background-color: #162632;
     width: 100%;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     height: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-content: flex-start;
 
 }
+
 .parent {
     background-color: #225b69;
     padding: 30px;
     height: auto;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: flex-start;
     color: rgb(202, 193, 193);
-    
+
 }
+
 .parent2 {
     background-color: #225b69;
     margin: 10px;
     padding: 30px;
     height: auto;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: flex-start;
     margin: none;
 }
+
 .parent3 {
     background-color: #225b69;
     margin: 10px;
     padding: 30px;
     height: auto;
-    display: flex; 
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
     align-content: flex-start;
     margin: none;
     font-size: 30px;
-    
+
 }
+
+.overbox {
+    background-color: black;
+    color:#969999;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 29.7%;
+    top:90%;
+}
+
 .div1 {
     background-color: #162632;
     margin: 5px;
@@ -142,7 +163,9 @@ header{
     font-size: 30px;
     width: 75%;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
+    height: fit-content;
+
 }
 
 .div3 {
@@ -153,16 +176,19 @@ header{
     width: 75%;
 }
 
-.divP1{
+.divP1 {
     flex-direction: column;
     width: 90%;
-    height: 200px;
+    height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+ 
+
 
 }
-.divP2{
+
+.divP2 {
+    nav-down: 100px;
     display: flex;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -170,20 +196,30 @@ header{
     height: auto;
     justify-content: space-between;
 }
-.smallpic{
 
-    flex-wrap: wrap;
+.smallpic {
+
+
     width: 45%;
-    height: 100px;
-}
-
-.largepic{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
     height: 200px;
+    opacity: .5;
 }
-.aboutpic{
+.smallpic:hover {
+    opacity:1;
+}
+.largepic {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border: black solid 5px;
+    opacity: .5;
+}
+.largepic:hover {
+    opacity:1;
+}
+.aboutpic {
+
     height: 200px;
     width: auto;
 }
@@ -193,22 +229,25 @@ li {
     display: flex;
     text-decoration: none
 }
-.div3 p{
+
+.div3 p {
     font-size: 20px;
     font-family: fantasy;
 }
-.footer{
+
+.footer {
     display: flex;
     height: 100px;
     width: 100%;
     background-color: #162632;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    color:#969999 ;
+    color: #969999;
 }
-@media screen and (max-width: 720px){
+
+@media screen and (max-width: 720px) {
     .div3 {
         display: flex;
         background-color: grey;
@@ -218,10 +257,11 @@ li {
         width: 75%;
         align-items: center;
         flex-direction: column;
-    
-}
-    .aboutpic{
+
+    }
+
+    .aboutpic {
         height: 200px;
         width: auto;
-}
+    }
 }
