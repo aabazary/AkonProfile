@@ -1,4 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
+/*skeleton*/
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    justify-self: flex-start;
+}
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+ul a{
+    display: flex;
+    font-family: fantasy;
+    color: brown;
+    padding: 0 20px 0 20px;
+    width: fit-content;
+    text-decoration: none;
+    justify-self: flex-end;
+    align-self: center;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+
+    
+    
+}
+
 /*flexbox*/
 .parent0{
     background-color: tan;
@@ -114,7 +159,7 @@ li {
     width: 100%;
     background-color: indigo;
 }
-@media screen (max-width: 720px){
+@media screen and (max-width: 720px){
     .div3 {
         display: flex;
         background-color: grey;
