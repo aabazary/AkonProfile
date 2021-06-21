@@ -213,8 +213,14 @@ header {
     height: fit-content;
 }
 .aboutcontainers{
-    width: 100%;
+    width: 45%;
     padding: none;
+    flex-wrap: wrap;
+}
+.aboutcontainers2{
+    width: 45%;
+    padding: none;
+    display: flex;
 }
 .div4 {
     display: flex;
@@ -276,12 +282,82 @@ header {
     margin: 5px;
 }
 .aboutButtons:hover::after{
+    color: rgb(202, 193, 193);
     text-decoration: none;
-    padding-left: 30px;
-    content: "Testing Testing One two three";
-    background-color: #162632;
-    color: #969999;
-    
+    margin-left: 50px;
+    content: "31 years";   
+}
+.aboutButtons2{
+    display: flex;
+    font-family: fantasy;
+    color: rgb(202, 193, 193);
+    background-color: #29465b;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    text-decoration: none;
+    justify-self: flex-end;
+    align-self: center;
+    border-radius: 10px;
+    border: black solid 2px;
+    border-color: black;
+    margin: 5px;
+}
+.aboutButtons2:hover{
+    display: flex;
+    font-family: fantasy;
+    color: #4c89b4;
+    background-color: #0a2030;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    text-decoration: none;
+    justify-self: flex-end;
+    align-self: center;
+    border-radius: 10px;
+    border: black solid 2px;
+    border-color: black;
+    margin: 5px;
+}
+.aboutButtons2:hover::after{
+    color: rgb(202, 193, 193);
+    text-decoration: none;
+    margin-left: 50px;
+    content: "6 Feet";   
+}
+.aboutButtons3{
+    display: flex;
+    font-family: fantasy;
+    color: rgb(202, 193, 193);
+    background-color: #29465b;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    text-decoration: none;
+    justify-self: flex-end;
+    align-self: center;
+    border-radius: 10px;
+    border: black solid 2px;
+    border-color: black;
+    margin: 5px;
+}
+.aboutButtons3:hover{
+    display: flex;
+    font-family: fantasy;
+    color: #4c89b4;
+    background-color: #0a2030;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    text-decoration: none;
+    justify-self: flex-end;
+    align-self: center;
+    border-radius: 10px;
+    border: black solid 2px;
+    border-color: black;
+    margin: 5px;
+}
+.aboutButtons3:hover::after{
+    color: rgb(202, 193, 193);
+    text-decoration: none;
+    margin-left: 10px;
+    content: "Santee, CA";   
 }
 .smallpic {
     position: relative;
@@ -346,73 +422,73 @@ li {
 }
 @media screen and (max-width: 1270px){
     .overbox{
-        top:26em;
+        top:25em;
     }
     .overbox1{
-        top:34em;
+        top:33em;
     }
     .overbox2{
-        top:34em;
+        top:33em;
     }
     .overbox3{
-        top:41em;
+        top:40em;
     }    
     .overbox4{
-        top:41em;
+        top:40em;
     }
 
 }
 @media screen and (max-width: 990px){
     .overbox{
-        top:27em;
+        top:25em;
     }
     .overbox1{
-        top:35em;
+        top:33em;
     }
     .overbox2{
-        top:35em;
+        top:33em;
     }
     .overbox3{
-        top:42em;
+        top:40em;
     }    
     .overbox4{
-        top:42em;
+        top:40em;
     }
 
 }
 @media screen and (max-width: 850px){
     .overbox{
-        top:28em;
+        top:25em;
     }
     .overbox1{
-        top:36em;
+        top:33em;
     }
     .overbox2{
-        top:36em;
+        top:33em;
     }
     .overbox3{
-        top:43em;
+        top:40em;
     }    
     .overbox4{
-        top:43em;
+        top:40em;
     }
 
 }
 @media screen and (max-width: 742px){
     .overbox{
-        top:29em;
+        top:25em;
     }
     .overbox1{
-        top:37em;
+        top:33em;
     }
     .overbox2{
-        top:37em;
+        top:33em;
     }
     .overbox3{
-        top:44em;
+        top:40em;
     }    
     .overbox4{
-        top:44em;
+        top:40em;
     }
 
 }
@@ -518,6 +594,7 @@ li a {
         justify-content: center;
         background-color:#162632;
         text-decoration: underline;
+        margin: 5px 0 5px 0;
     
     }
 
