@@ -7,15 +7,22 @@
 html {
     padding: 0px;
     scroll-behavior: smooth;
-    transition-timing-function: ease-in-out;
-    transition-delay: 1s;
-}
+    transition: all .5s ease-in;
 
+}
+figure a:hover{
+    background-color: #969999;
+}
+.mqbuttons{
+    display: none;
+}
 .banner {
     height: 150px;
     width: 100%;
 }
-
+.buttlinks{
+    display: none;
+}
 .name {
     display: flex;
     font-size: 25px;
@@ -222,6 +229,10 @@ header {
     padding: none;
     display: flex;
 }
+.aboutpic{
+    height: 200px;
+    width: 200px;
+}
 .div4 {
     display: flex;
     background-color: #162632;
@@ -238,7 +249,7 @@ header {
     margin-bottom: 20px;
 }
 
-#mqtitles{
+#mqtitles, #mqtitles2, #mqtitles3{
     display: none;
 }
 
@@ -505,6 +516,11 @@ li {
         flex-direction: column;
 
     }
+    .mqbuttons{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
     .asideBox{
         display: none;
     }
@@ -537,6 +553,9 @@ li {
         padding: 0px;
         margin: 0px;
     }
+    nav{
+        display: none;
+    }
 .name{
     display: none;}
     .parent0{
@@ -559,7 +578,20 @@ li a {
         border-color: black;
         margin: 10px;
     }
-    
+    .buttlinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .imgbutt {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    .imgbutt:hover{
+        background-color: #969999 ;
+        margin: 10px;
+    }
     li a:hover {
         display: flex;
         font-family: fantasy;
@@ -585,7 +617,7 @@ li a {
         padding: 0px;
         margin: 0px;
     }
-    #mqtitles{
+    #mqtitles, #mqtitles2, #mqtitles3{
         display: flex;
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
@@ -595,8 +627,8 @@ li a {
         background-color:#162632;
         text-decoration: underline;
         margin: 5px 0 5px 0;
-    
     }
+    
 
     .aboutpic {
         height: 200px;
