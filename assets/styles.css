@@ -215,24 +215,18 @@ header {
     background-color: #162632;
     font-size: 20px;
     width: 75%;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
     height: fit-content;
 }
 .aboutcontainers{
-    width: 45%;
-    padding: none;
-    flex-wrap: wrap;
-}
-.aboutcontainers2{
-    width: 45%;
+    
+    width: 50%;
     padding: none;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.aboutpic{
-    height: 200px;
-    width: 200px;
-}
+
 .div4 {
     display: flex;
     background-color: #162632;
@@ -270,8 +264,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -285,8 +278,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self:flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -306,8 +298,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -321,8 +312,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -342,8 +332,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -357,8 +346,7 @@ header {
     padding: 0px 10px 0px 10px;
     width: fit-content;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 10px;
     border: black solid 2px;
     border-color: black;
@@ -394,8 +382,9 @@ header {
 }
 .aboutpic {
 
-    height: 200px;
+    height: 120px;
     width: auto;
+    margin-right: 20px;
 }
 
 li {
